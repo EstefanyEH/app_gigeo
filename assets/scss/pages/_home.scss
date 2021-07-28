@@ -1,0 +1,145 @@
+//navbar
+
+nav{
+    height: 60px;
+}
+
+.fas{
+    text-decoration: none;
+    color: $swamp;
+    font-size: 1.3rem;
+}
+
+.nav__logo{
+    font-family: $lato;
+    font-weight: $lato-weight-regular;
+    font-size: $font-size-xx-large;
+}
+
+span{
+    font-family: $lato;
+    font-size: $font-size-x-small;
+}
+//header
+header{
+    background-image: url(/assets/img/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 53%;
+    height: 220px;
+}
+
+//profile
+
+.img_profile{
+    border-radius: 60%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 0 30%;
+    margin-top: 15px;
+
+}
+
+.yuki{
+    font-size: $lato;
+    font-weight: $lato-weight-regular;
+    font-size: $font-size-x-large;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.seguidores{
+    font-size: $lato;
+    font-weight: $lato-weight-regular;
+    font-size: $font-size-x-small;
+    color: $gray;
+}
+
+//butonones
+
+.botones{
+    margin-left: 20%;
+}
+.boton1{
+    background-color: $sky-blue;
+    color: $white;
+    font-family: $lato;
+    font-weight: $lato-weight-regular;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+
+.boton2{
+    background-color: $persimmon;
+    color: $white;
+    font-family: $lato;
+    font-weight: $lato-weight-regular;
+    width: 100px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+//article
+
+.videos{
+    font-family: $lato;
+    font-weight: $lato-weight-regular;
+    font-size: $font-size-xx-large;
+}
+
+//card
+
+.card-img-top{
+    height: 10rem;
+}
+
+.card__title{
+    font-family: $lato;
+    font-size: $font-size-large;
+    margin-bottom: 0;
+    color: $swamp;
+}
+
+.card__text{
+    font-family: $lato;
+    color: $gray;
+}
+
+@media (max-width: $min-laptop){
+
+    nav{
+        height: 80px;
+        
+        .fas{
+            font-size: 1.5rem;
+        }
+    }
+
+    header{
+        background-image: url(/assets/img/image-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 48%;
+        height: 80px;
+    }
+
+    .name_profile{
+        margin: 0 !important;
+    }
+    .img_profile{
+        width: 80px;
+        height: 80px;
+        margin-left: 5rem !important;
+    }
+
+
+    .videos{
+        text-align: center;
+        margin-top: 20px;
+        font-size: $font-size-x-large;
+    }
+
+}
