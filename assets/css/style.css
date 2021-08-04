@@ -9950,7 +9950,7 @@ span {
 }
 
 header {
-  background-image: url(/assets/img/image-banner.png);
+  background-image: url(../img/image-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 53%;
